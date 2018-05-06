@@ -1,0 +1,16 @@
+{
+  "name": "@uebusin/save_chrome_log",
+  "version": "1.0.0",
+  "description": "save chrome console log automatically",
+  "main": "main.js",
+  "dependencies": {
+    "chromedriver": "^2.37.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "uebusin",
+  "license": "ISC"
+}
