@@ -1,30 +1,30 @@
 
-#save chrome console log automatically
+# save chrome console log automatically
 
 ## Getting Started
 ### Install node.js
 - https://nodejs.org/en/
 
-###Download ChromeDriver & set PATH
+### Download ChromeDriver & set PATH
 - https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-###install node packages
+### install node packages
 ```
 npm install
 ```
 
-###modify config.js(L.5 - L.7)
+### modify config.js(L.5 - L.7)
 ```
 vi config.js
 ```
 
-###modify list.txt 
+### modify list.txt 
 ```
 vi list.txt 
 ```
 
 
-###start
+### start
 ```
 npm run start
 ```
@@ -32,8 +32,8 @@ npm run start
 ## system requirements
 - macOS
 
-##tips
-###How to start Chrome for macOS with Option
+## tips
+### How to start Chrome for macOS with Option
 ```
 open /Applications/Google\ Chrome.app --args --enable-logging --log-level=0
 ```
